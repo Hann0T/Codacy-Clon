@@ -11,5 +11,163 @@ h1,h2,h3,h4,h5,h6{
 }
 
 body{
+    background-color: #283852;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a[class$="__button"]{
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+/* Nav principal */
+
+.main-menu{
     background: linear-gradient(-45deg,#4c6cd3,#27326d);
+    /* position: sticky;
+    top: 0; */
+}
+
+.main-menu > .container{
+    padding: 40px 0;
+}
+
+.main-menu__logo{
+    width: 33.3333333333333%;
+}
+
+.main-menu__logo img{
+    height: 40px;
+}
+
+.main-menu__list{
+    width: 66.666666666667%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.main-menu__list a{
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.main-menu__button{
+    color: #48e0a6;
+    border: 1px solid #48e0a6;
+
+}
+
+
+/* Hero */
+
+.hero{
+    background: linear-gradient(-45deg,#4c6cd3,#27326d);
+
+}
+
+.hero .container{
+    padding: 50px 0;
+}
+
+.hero__info{
+    width: 50%;
+}
+
+.hero__info h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero__info p{
+    color: #d5e3e9;
+    line-height: 1.8;
+    margin-top: 30px;
+}
+
+.hero__button{
+    background-color: #48e0a6;
+    color: black;
+    margin-top: 30px;
+}
+
+
+.hero__image{
+    width: 50%;
+}
+
+.hero__slider{
+    width: 100%;
+    text-align: center;
+}
+
+.hero__slider h4{
+    color: rgba(255,255,255,.7);
+    margin: 50px 0;
+}
+
+.hero__slider ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__slider li{
+    display: inline-block;
+}
+
+.hero__slider img{
+    height: 40px;
+    width: auto;
+}
+
+/* Features */
+
+.features{
+    padding: 80px 0;
+    background-color: #283852;
+}
+
+.features__image{
+    width: 50%;
+}
+
+.features__info{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.features__info h2{
+    font-size: 32px;
+}
+
+.features__info p{
+    margin-top: 30px;
+    color: #d5e3e9;
+    line-height: 1.8;
+}
+
+.features__button{
+    margin-top: 30px;
+    color: #4e7fff;
+    border: 1px solid #4e7fff;
+    width: fit-content;
 }
